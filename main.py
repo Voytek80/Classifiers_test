@@ -21,7 +21,11 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 import xgboost as xgb
 import matplotlib.pyplot as plt
 
+################################################
 
+# Testing different sklearn classifiers based on diabetes data
+
+################################################
 df = read_csv('diabetes_data_upload.csv')
 print(df.shape)
 
